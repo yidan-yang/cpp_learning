@@ -24,7 +24,7 @@ string getDayOfWeek(int dayNum) {
 	case 5:
 	    dayName = "Thursday";
 	    break;
-    case 6:
+        case 6:
 	    dayName = "Friday";
 	    break;
 	case 7:
