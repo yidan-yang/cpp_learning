@@ -16,3 +16,22 @@ int main() {
 	cout << "You win!";
 	return 0;
 }
+
+
+
+/* another way to code this game: do while loop*/
+
+int main() {
+	int secretNum = 7;
+	int guess{};
+
+	do {
+		cout << "Enter guess: ";
+		cin >> guess;
+	} 
+	while (secretNum != guess);
+
+	cout << "You win!";
+
+	return 0;
+}
