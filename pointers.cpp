@@ -21,9 +21,9 @@ int main() {
 	//cout << "GPA: " << &gpa << endl;
 	//cout << "Name: " << &name << endl;
 
-	cout << *pAge << endl;//derefence a pointer
-	cout << *&gpa << endl;
-	cout << &gpa << endl;
+	cout << *pAge << endl; //derefence a pointer, print out 19
+	cout << *&gpa << endl;  // print out value
+	cout << &gpa << endl;  // print out physical address
 
 	return 0;
 }
