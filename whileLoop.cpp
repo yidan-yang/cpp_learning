@@ -18,3 +18,19 @@ int main() {
 
 
 /* note: there is a difference between where the print function*/
+
+/* do while loop*/
+int main() {
+
+	int index = 0;
+	
+	do{
+		//cout << index << endl;
+		index++;
+		//cout << index << endl;
+	} while (index <= 5);
+
+	cout << index << endl;
+	return 0;
+}
+
