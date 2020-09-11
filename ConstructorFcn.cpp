@@ -34,19 +34,21 @@ int main() {
 
 
 
-
-
-
-
-
-
-
 /* use constructor to initialize the object*/
 class Book {
 public:
 	string title;
 	string author;
 	int pages;
+
+	/* initialization*/
+	Book() {
+		title = "no title";
+		author = "no author";
+		pages = 0;
+	}
+	
+
 	/* constructor function*/
 	Book(string aTitle, string aAuthor, int aPages) {
 		title = aTitle;
