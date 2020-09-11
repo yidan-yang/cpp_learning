@@ -31,3 +31,35 @@ int main() {
 
 	return 0;
 }
+
+
+
+
+
+
+
+
+
+
+/* use constructor to initialize the object*/
+class Book {
+public:
+	string title;
+	string author;
+	int pages;
+	/* constructor function*/
+	Book(string aTitle, string aAuthor, int aPages) {
+		title = aTitle;
+		author = aAuthor;
+		pages = aPages;
+	}
+};
+
+int main() {
+
+	Book book1("Harry Potter", "JK Rowling",500);
+	Book book2("Numerical Linear Algebra", "LLOYD", 666);
+
+	cout << book2.author;
+	return 0;
+}
