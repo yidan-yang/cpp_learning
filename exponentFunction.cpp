@@ -20,9 +20,9 @@ int main() {
 
 
 
+
+
 /* enter number interface*/
-
-
 int main() {
 
 	int baseNum;
